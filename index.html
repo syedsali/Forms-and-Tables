@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Basic Information</h1>
-    <h3>First name:</h3><input type="text"><br>
-    <h3>Middle name:</h3><input type="text"><br>
-    <h3>Last name:</h3><input type="text"><br>
-    <h3>Email Address:</h3><input type="text"><br>
-    <h3>Telephone number:</h3><input type="number"><br>
-    <h3>Home address:</h3><input type="text"><br>
 
+<body>
+    <form id="Basic information" action=" https://syedsali.github.io/Forms-and-Tables-/" method="GET">
+        <h2>Your Basic information</h2><br>
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" placeholder="Name"><br><br>
+        <label for="name">Enter your Email:</label>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <label for="name">Create a Password:</label>
+        <input type="password" id="password" placeholder="password"><br><br>
+        <label for="Telephone Number">Telephone number:</label>
+        <input type="tel" id="Telephone number" placeholder="Telephone number"><br><br>
+        <h4>Best time to contact</h4>
+        <label for="morning">morning</label>
+        <input type="radio" id="morning" name="Contact time" value="morning">
+        <br>
+        <label for="afternoon">afternoon</label>
+        <input type="radio" id="afternoon" name="Contact time" value="afternoon">
+        <br>
+        <label for="evening">evening</label>
+        <input type="radio" id="evening" name="Contact time" value="evening">
+        <br><br>
+        <input type="submit" value="Submit"><br>
+
+    </form>
 </body>
+
 </html>
