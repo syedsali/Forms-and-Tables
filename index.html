@@ -5,26 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <form id="We are Hiring" action="https://syedsali.github.io/Forms-and-Tables-/" method="GET">
-        <h2>We are Hiring</h2><br><br>
-        <label for="F name">First Name:</label>
-        <input type="text" id="F name" placeholder="First Name"><br><br>
-        <label for="M name">Middle Name:</label>
-        <input type="text" id="M name" placeholder="Middle Name"><br><br>
-        <label for="L name">last Name:</label>
-        <input type="text" id="L name" placeholder="Last Name"><br><br>
-        <label for="Telephone Number">Telephone number:</label>
-        <input type="tel" id="Telephone number" placeholder="Telephone number"><br><br>
-        <label for="name">Enter your Email:</label>
-        <input type="email" id="email" placeholder="Email"><br><br>
-        <label for="21 years">I am 21 years old</label>
-        <input type="checkbox" id="21 years" name="21 or older" value="age"><br><br>
-        <input type="submit" value="Submit">
+    <div style="text-align:center">
+        <form id="Your Basic Info" action="https://syedsali.github.io/Forms-and-Tables-/" method="GET">
+            <h2>Your Basic Info</h2>
+            <label id="N" for="Name">Name</label><br>
+            <input type="text" id="Name"><br><br>
+            <label id="E" for="email">Email</label><br>
+            <input type="email" id="email"><br><br>
+            <label id="P" for="Password">Password</label><br>
+            <input type="Password" id="Password"><br><br>
+            <label id="A" for="under 16">Age:</label><br><br>
+            <input text="Under 16" type="radio" id="under 16" name="under 16" value="age">
+            <label id="U" for="under 16">Under 16</label><br>
+            <input text="16 or older" type="radio" id="16 or older" name="16 or older" value="age">
+            <label id="O" for="16 or Older">16 or Older</label><br><br>
+            <h2 class="profile">Your profile</h2><br>
+            <label id="B" for="Bio">Biography</label><br>
+            <input type="text" id="Bio"><br><br>
+            </select>
+            <action=" /action_page.php">
+                <label id="C" for="courses">Select Your Course</label><br>
+                <select id="Courses" name="Courses">
+                    <option value="(ACCT)">Accounting</option>
+                    <option value="(APRD)">Advertising, PR and Media Design</option>
+                    <option value="(AIRR)">Air Force Aerospace Studies</option>
+                    <option value="(BAKR)">Baker Residential Academic Program</option>
+                    <option value="(BPOL)">Business Environment and Policy</option>
+                    <option value="(BASE)">BCOR Applied Semester Experience</option>
+                    <option value="(COMR)">Communication Residential Academic Program</option>
+                    <option value="(CSPB)">Computer Science Post-Baccalaureate</option>
+                    <option value="(CESR)">Curriculum Emphasis in Social Responsibility</option>
+                    <option value="(DNCE)">Dance </option>
+                    <option value="(ESBM)">Entrepreneurial and Small Business Management</option>
+                    <option value="(GEOG)">Geography </option>
+                    <option value="(MGMT)">Management</option>
+                    <option value="(MCDB)">Molecular, Cellular and Developmental Biology</option>
+                    <option value="(CYBR)">Technology, Cybersecurity & Policy</option>
+                </select><br><br>
+                <label id="I" for="interests:">Interests:</label><br>
+                <input text="Eng" type="checkbox" id="Eng" name="Options" value="Cou">
+                <label id="EG" for="interests:">Engineering</label><br>
+                <input text="Eng" type="checkbox" id="Eng" name="Options" value="Cou">
+                <label id="BSN" for="interests:">Business</label><br>
+                <input text="Eng" type="checkbox" id="Eng" name="Options" value="Cou">
+                <label id="Law" for="interests:">Law</label><br><br>
 
-    </form>
+        </form>
+    <input id="Sub" type="submit" value="Submit">
+
+    </div>
+
+    </div>
+
+    </div>
 
 
 </body>
